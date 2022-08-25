@@ -140,8 +140,14 @@ a {
     width: 100%;
     height: 500px;
     border: 5px solid #92ccce;
+    filter: grayscale(60%);
     display: flex;
     align-items: flex-end;
+}
+
+.cardmain:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    filter: grayscale(0%);
 }
 
 .innerbox01 {
@@ -177,6 +183,12 @@ a {
     width: 720px;
     height: 200px;
     border: 5px solid #92ccce;
+    filter: grayscale(60%);
+}
+
+.card01:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    filter: grayscale(0%);
 }
 
 .innerbox02 {
@@ -203,6 +215,12 @@ a {
     width: 720px;
     height: 200px;
     border: 5px solid #92ccce;
+    filter: grayscale(60%);
+}
+
+.card02:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    filter: grayscale(0%);
 }
 
 .innerbox03 {
@@ -229,6 +247,12 @@ a {
     width: 720px;
     height: 200px;
     border: 5px solid #92ccce;
+    filter: grayscale(60%);
+}
+
+.card03:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    filter: grayscale(0%);
 }
 
 .innerbox04 {
@@ -255,6 +279,12 @@ a {
     width: 720px;
     height: 200px;
     border: 5px solid #92ccce;
+    filter: grayscale(60%);
+}
+
+.card04:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    filter: grayscale(0%);
 }
 
 .innerbox05 {
@@ -324,9 +354,10 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+
     /* Use flex-direction to stack the navbar, sidebar, and body */
-   header,
-   nav {
-      flex-direction: column;
+    header,
+    nav {
+        flex-direction: column;
     }
-  }
+}
