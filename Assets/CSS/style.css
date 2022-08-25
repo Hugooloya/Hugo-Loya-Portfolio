@@ -1,0 +1,332 @@
+body {
+    background-color: #ededf5;
+}
+
+.header {
+    width: 100%;
+    height: 65px;
+    background-color: #30343d;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Source Sans Pro';
+}
+
+.header div {
+    width: 315px;
+    height: 50px;
+    background-color: #92ccce;
+    align-self: center;
+    position: relative;
+}
+
+.header div h1 {
+    font-size: 35px;
+    color: #30343d;
+    position: absolute;
+    left: 125px;
+    top: 9px;
+}
+
+.header nav {
+    align-self: center;
+    font-size: 18px;
+}
+
+.header nav ul {
+    display: flex;
+    margin-right: 80px;
+}
+
+.header nav ul li {
+    margin-right: 10px;
+    padding: 0px 10px 3px 10px;
+    border-bottom: 3px solid #92ccce;
+}
+
+a {
+    color: #92ccce;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hero {
+    height: 200px;
+    width: 100%;
+    background-image: url(../Images/pexels-harrison-candlin-2441454.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h2 {
+    font-size: 25px;
+    float: right;
+    width: 280px;
+    height: 40px;
+    background-color: #92ccce;
+    margin: 140px 90px 0px 0px;
+    text-align: center;
+}
+
+.hero h2 p {
+    padding-top: 10px;
+    color: #30343d;
+}
+
+.aboutme {
+    display: flex;
+    margin: 40px 80px 40px 80px;
+    height: 150px;
+    color: #445775;
+    font-family: 'Source Sans Pro';
+}
+
+.aboutme_leftbox {
+    width: 200px;
+    border-right: 3px solid #445775;
+}
+
+.aboutmeh2 {
+    font-size: 45px;
+    text-align: right;
+    margin-right: 12px;
+}
+
+.aboutme_rightbox {
+    width: 100%;
+    margin-left: 30px;
+}
+
+.aboutmep {
+    font-size: 18px;
+    text-align: justify
+}
+
+/* ----------------- WORK SECTION CSS --------------- */
+
+.work {
+    display: flex;
+    margin: 40px 80px 40px 80px;
+    height: 1000px;
+    color: #445775;
+    font-family: 'Source Sans Pro';
+}
+
+.work_leftbox {
+    width: 175px;
+    border-right: 3px solid #445775;
+}
+
+.workh2 {
+    display: flex;
+    font-size: 45px;
+    justify-content: flex-end;
+    margin-right: 12px;
+}
+
+.work_rightbox {
+    width: 1500px;
+    margin-left: 40px;
+}
+
+.work_rightboxtop {
+    width: 100%;
+    height: 50%;
+}
+
+.cardmain {
+    background-image: url(../Images/Yellow.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    border: 5px solid #92ccce;
+    display: flex;
+    align-items: flex-end;
+}
+
+.innerbox01 {
+    background-color: #92ccce;
+    width: 300px;
+    height: 150px;
+    margin-bottom: 50px;
+}
+
+.innerbox01 h2 {
+    font-size: 50px;
+    margin: 60px 0px 0px 20px;
+}
+
+.innerbox01 p {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.work_rightboxbot {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+.card01 {
+    background-image: url(../Images/Led.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 720px;
+    height: 200px;
+    border: 5px solid #92ccce;
+}
+
+.innerbox02 {
+    background-color: #92ccce;
+    width: 300px;
+    height: 80px;
+    margin-bottom: 50px;
+}
+
+.innerbox02 h2 {
+    font-size: 50px;
+    margin: 60px 0px 0px 20px;
+}
+
+.innerbox02 p {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.card02 {
+    background-image: url(../Images/Laptop.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 720px;
+    height: 200px;
+    border: 5px solid #92ccce;
+}
+
+.innerbox03 {
+    background-color: #92ccce;
+    width: 300px;
+    height: 80px;
+    margin-bottom: 50px;
+}
+
+.innerbox03 h2 {
+    font-size: 50px;
+    margin: 60px 0px 0px 20px;
+}
+
+.innerbox03 p {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.card03 {
+    background-image: url(../Images/pastel.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 720px;
+    height: 200px;
+    border: 5px solid #92ccce;
+}
+
+.innerbox04 {
+    background-color: #92ccce;
+    width: 300px;
+    height: 80px;
+    margin-bottom: 50px;
+}
+
+.innerbox04 h2 {
+    font-size: 50px;
+    margin: 60px 0px 0px 20px;
+}
+
+.innerbox04 p {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.card04 {
+    background-image: url(../Images/HTML.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 720px;
+    height: 200px;
+    border: 5px solid #92ccce;
+}
+
+.innerbox05 {
+    background-color: #92ccce;
+    width: 300px;
+    height: 80px;
+    margin-bottom: 50px;
+}
+
+.innerbox05 h2 {
+    font-size: 50px;
+    margin: 60px 0px 0px 20px;
+}
+
+.innerbox05 p {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+
+
+
+/* ----------------FOOTER CSS--------------- */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 80px 40px 80px;
+    width: 1705px;
+    height: 150px;
+    color: #445775;
+    font-family: 'Source Sans Pro';
+}
+
+.footerleftbox {
+    width: 175px;
+    border-right: 3px solid #445775;
+}
+
+.footerleftboxh2 {
+    font-size: 45px;
+    text-align: right;
+    margin-right: 12px;
+}
+
+.footerrightbox {
+    width: 100%;
+    height: 100%;
+}
+
+.footerrightboxul {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footerrightboxul li {
+    font-size: 20px;
+    border-bottom: 3px solid #445775;
+    padding: 0px 10px 3px 10px;
+}
+
+.footerrightboxul li a {
+    color: #30343d;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    /* Use flex-direction to stack the navbar, sidebar, and body */
+   header,
+   nav {
+      flex-direction: column;
+    }
+  }
